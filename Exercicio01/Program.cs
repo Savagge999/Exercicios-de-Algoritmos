@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // 1.Escreva um programa que mostre na tela a mensagem "Olá, Mundo!"
+
+            Console.WriteLine("Olá, Mundo!");
+
+            Console.ReadKey();
         }
     }
 }
