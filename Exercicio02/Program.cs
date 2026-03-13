@@ -12,7 +12,7 @@
             #endregion
 
             Console.Write("Qual é o seu nome? ");
-            var nome = Console.ReadLine().TrimStart().TrimEnd();
+            string nome = Console.ReadLine().TrimStart().TrimEnd();
             Console.WriteLine($"Olá {nome}, é um prazer te conhecer!");
 
             Console.ReadKey();
