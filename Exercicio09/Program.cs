@@ -21,7 +21,7 @@ internal class Program
 
         if (dolares == 1m)
         {
-            dollar = "dollar";
+            dollar = "dolar";
         }
         else if (dolares < 1m)
         {
