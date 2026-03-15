@@ -16,16 +16,16 @@ internal class Program
 
         decimal dolares = reais / 3.45m;
 
-        string dollar = "dolares";
+        string dollar = "dólares";
         string real = "reais";
 
         if (dolares == 1m)
         {
-            dollar = "dolar";
+            dollar = "dólar";
         }
         else if (dolares < 1m)
         {
-            dollar = "centavos de dolares";
+            dollar = "centavos de dólares";
         }
 
         if (reais == 1m)
